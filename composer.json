@@ -1,0 +1,10 @@
+{
+    "name": "oo-wordpress/sample-plugin",
+    "require": {
+        "php": ">=5.3.2",
+        "eabay/oo-wordpress": "*"
+    },
+    "autoload": {
+        "psr-0": {"SampleApp": "src/"}
+    }
+}
