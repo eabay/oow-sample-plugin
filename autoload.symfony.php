@@ -9,7 +9,9 @@
  * /////////////////////////////////////////////////
  */
 
-require_once __DIR__.'/vendor/symfony/class-loader/Symfony/Component/ClassLoader/UniversalClassLoader.php';
+if (!class_exists('Symfony\Component\ClassLoader\UniversalClassLoader')) {
+    require_once __DIR__.'/vendor/symfony/class-loader/Symfony/Component/ClassLoader/UniversalClassLoader.php';
+}
 
 $loader = new Symfony\Component\ClassLoader\UniversalClassLoader;
 $loader->registerNamespaces(require __DIR__.'/vendor/.composer/autoload_namespaces.php');
