@@ -8,7 +8,7 @@ Version: 1.0
 Author URI: http://erhanabay.com/
 */
 
-require_once __DIR__. '/bootstrap.php';
+require_once __DIR__. '/autoload.php';
 
 use Hwm\WordPress\Plugin\PluginManager;
 use SampleApp\Plugins\HelloWorld;
