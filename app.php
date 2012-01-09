@@ -7,7 +7,8 @@ Author: Erhan Abay
 Version: 1.0
 Author URI: http://erhanabay.com/
 */
-require_once 'vendor/.composer/autoload.php';
+
+require_once __DIR__. '/bootstrap.php';
 
 use Hwm\WordPress\Plugin\PluginManager;
 use SampleApp\Plugins\HelloWorld;
