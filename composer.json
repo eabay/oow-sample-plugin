@@ -1,11 +1,8 @@
 {
-    "name": "eabay/oo-wordpress-sample-plugin",
+    "name": "eabay/oow-sample-plugin",
     "require": {
         "php": ">=5.3.2",
-        "eabay/oo-wordpress": "*"
-    },
-    "suggest": {
-        "symfony/class-loader": "2.0.*"
+        "eabay/oow": "*"
     },
     "autoload": {
         "psr-0": {"SampleApp": "src/"}
