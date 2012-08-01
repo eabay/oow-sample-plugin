@@ -8,9 +8,9 @@ Version: 1.0
 Author URI: http://erhanabay.com/
 */
 
-require_once __DIR__. '/vendor/.composer/autoload.php';
+require_once __DIR__. '/vendor/autoload.php';
 
 
 $manager = new Oow\Plugin\PluginManager;
 
-$manager->addPlugin(new SampleApp\Plugins\HelloWorld);
+$manager->addPlugin(new SampleApp\Plugins\HelloWorld());
